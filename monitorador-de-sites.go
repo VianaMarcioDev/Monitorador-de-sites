@@ -18,5 +18,12 @@ func main(){
 	*/
 	fmt.Scan(&opcaoEscolhida)
 
+	switch opcaoEscolhida{
+		case 0: fmt.Println("Saindo do programa.")		
+		case 1: fmt.Println("Monitorando...")
+		case 2: fmt.Println("Exibindo logs...")
+		default: fmt.Println("Opção inválida!")
+	}
+
 	fmt.Println("O comando escolhido foi ", opcaoEscolhida)
 }
